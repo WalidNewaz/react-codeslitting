@@ -1,0 +1,16 @@
+
+#breadcrumb > ol {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+}
+#breadcrumb > li {
+  display: contents;
+  gap: 0.5rem;
+}
+#breadcrumb li::before {
+  content: "/ ";
+}
