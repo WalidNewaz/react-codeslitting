@@ -1,13 +1,12 @@
 import { Suspense, lazy } from "react";
 
-import Layout from "./Layout";
-import NotFound from "./404";
-import Loading from "./components/Loading";
-
 /** Utils */
 import { delayPromise } from "./utils";
 
 /** Components */
+import Layout from "./Layout";
+import NotFound from "./404";
+import Loading from "./components/Loading";
 import withOutlet from "./hocs/withOutlet";
 
 /** Lazy components */
