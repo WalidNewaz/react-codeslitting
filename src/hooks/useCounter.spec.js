@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
 import { renderHook, act } from '@testing-library/react';
-import { useCounter } from '../../hooks/useCounter';
+import { useCounter } from './useCounter';
 
 test('should initialize with the default value', () => {
   const { result } = renderHook(() => useCounter());

@@ -1,6 +1,6 @@
 import { expect, it, describe } from "vitest";
 import { renderHook } from '@testing-library/react';
-import { useSearch } from "../../hooks/useSearch";
+import { useSearch } from "./useSearch";
 import { act } from "react";
 
 describe("useSearch", () => {

@@ -2,7 +2,7 @@ import React from "react";
 import { vi, test, expect } from "vitest";
 import { render } from "vitest-browser-react";
 import { waitFor } from "@testing-library/react";
-import FetchUser from "../../components/testable/FetchUser";
+import FetchUser from "./FetchUser";
 import { getUserById } from "../../services/userService";
 
 // Mock the userService

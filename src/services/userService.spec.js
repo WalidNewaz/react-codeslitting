@@ -1,7 +1,7 @@
 import { vi, expect, it, describe } from "vitest";
-import { getUserById } from "../../services/userService";
+import { getUserById } from "./userService";
 
-vi.mock("../../services/userService", { spy: true });
+vi.mock("./userService", { spy: true });
 
 describe("userService", () => {
   it("should return user by id", async () => {
